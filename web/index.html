@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='fib.js'></script>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #eee;
+        background: #121212;
+      }
+    }
+
+    body {
+      text-wrap-mode: wrap;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+    }
+
+    .center canvas,
+    .center div {
+      margin: auto;
+    }
+
+    #webcl {
+      image-rendering: pixelated;
+      height: 128px;
+      width: 128px;
+    }
+
+    #output {
+      margin: auto;
+      text-align: center;
+      max-width: 600px;
+    }
+  </style>
+</head>
+
+<body onload="init()">
+  <dib>sup</dib>
+  <div class="center">
+    <canvas id="webcl"></canvas>
+  </div>
+  <div class="center">
+    <div id="output"></div>
+  </div>
+</body>
+
+</html>

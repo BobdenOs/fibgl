@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "name": "build",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "intelliSenseMode": "${default}"
+    }
+  ],
+  "version": 4
+}
